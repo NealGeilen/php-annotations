@@ -1,0 +1,22 @@
+{
+  "name": "nealg/annotations",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Neal Geilen",
+      "email": "nealgeilen@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Annotation\\" : "src/",
+      "Router\\" : "routing/"
+    }
+  },
+  "require": {
+    "smarty/smarty": "3.1.*",
+    "ext-json": "*"
+  }
+}
